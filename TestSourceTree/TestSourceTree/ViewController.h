@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+
 - (IBAction)clickedDone:(id)sender;
+
+- (IBAction)clickButton:(id)sender;
+
 
 @end

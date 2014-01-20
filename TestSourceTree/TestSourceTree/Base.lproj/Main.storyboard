@@ -9,13 +9,15 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FUf-qp-5Pd"/>
-                        <viewControllerLayoutGuide type="bottom" id="33T-4c-c3Q"/>
+                        <viewControllerLayoutGuide type="top" id="Al8-hv-aVQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="iMq-b1-yo3"/>
+
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hK3-hB-2dg">
                                 <rect key="frame" x="130" y="177" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -24,6 +26,17 @@
                                 </state>
                                 <connections>
                                     <action selector="clickedDone:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BUg-q8-9wk"/>
+                               </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g8-vF-xee">
+                                <rect key="frame" x="137" y="217" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="39n-Nb-2kN"/>
+>>>>>>> 84e1c9bdb30e41a673fb2066550e3815974c40a9
                                 </connections>
                             </button>
                         </subviews>
